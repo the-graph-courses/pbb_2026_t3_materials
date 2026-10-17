@@ -1,0 +1,155 @@
+---
+title: "Python Basics & Beyond Final Project: Statistics Dashboard with Quarto"
+format:
+  html:
+    link-external-newwindow: true
+author: "The GRAPH Courses"
+---
+
+## Overview
+
+For your final project, you will build a multi-page Quarto dashboard that explores and visualizes real-world data. This is an opportunity to consolidate your skills in data manipulation, visualization, and dashboard creation, while creating a portfolio-worthy project that you can share with future employers.
+
+::: {.callout-important}
+## Special instruction for UNODA/BWC-sponsored students
+
+**If you are sponsored by the UNODA Biological Weapons Convention (BWC) programme, your final project must include at least one health-security or biosecurity-relevant Gapminder indicator from this preset list: [Gapminder biosecurity-relevant variables](https://github.com/the-graph-courses/misc_public/blob/main/unoda/gapminder_biosecurity_relevant_variables.md){target="_blank" rel="noopener"}. 
+
+More details about this are described below.
+
+If you are not sure whether this applies to you, this usually means students on a 100% scholarship/ who did not pay for the course.**
+:::
+
+## Timeline
+
+| Date | Activity |
+|------|----------|
+| Nov 30 | Final project introduced |
+| Dec 7 | **Checkpoint day**: present at least one page of your dashboard; get feedback and help |
+
+## Checkpoint & Feedback Session (Dec 7)
+
+The checkpoint session will be dedicated to getting feedback and mentorship on your project. By then, you should have **at least one page** of your dashboard ready. You will briefly present that page during the session; this presentation may factor into your grade.
+
+## Project Requirements
+
+### Data Selection
+
+- Choose at least **two indicators** from [Gapminder's data repository](https://gapminder.org/data){target="_blank" rel="noopener"}.
+- **UNODA/BWC-sponsored students:** at least one of your indicators must be a health-security or biosecurity-relevant indicator from this list: [Gapminder biosecurity-relevant variables](https://github.com/the-graph-courses/misc_public/blob/main/unoda/gapminder_biosecurity_relevant_variables.md){target="_blank" rel="noopener"}. These indicators come from the full Gapminder dataset and are available by country and year.
+- You can subset to a single year or include multiple years in your analysis.
+- If you would rather work with alternative datasets, perhaps those more relevant to your work, send an email to us at trainingteam@thegraphnetwork.org with your proposal. As long as your final dashboard meets the rubric requirements below, it could be a good alternative. If you are a UNODA/BWC-sponsored student, please also explain how your proposed dataset keeps the project relevant to health security or biosecurity.
+
+### Dashboard Structure
+
+Your dashboard should contain **at least three pages**, with at least the following:
+
+1. First Indicator Analysis
+2. Second Indicator Analysis
+3. Relationship between the two indicators. No statistical analysis is required; this can be purely descriptive/graphical.
+
+### Technical Requirements
+
+- The dashboard should include at least **12 display elements**.
+- Elements include:
+  - Value boxes
+  - Interactive plots
+  - Tables
+  - Maps
+  - Text boxes with descriptions of key insights
+- You should demonstrate your ability to use a range of pandas methods/functions. (Polars or Ibis are also acceptable.)
+- You should demonstrate your ability to create a range of plotly visualizations. (Matplotlib, plotnine, seaborn, etc. are also acceptable.)
+
+## Checkpoint Presentation {#checkpoint-presentation}
+
+During the checkpoint session (Dec 7), you will give a **short live walkthrough** of the page(s) you have ready so far. Be prepared to explain your data choices, visualizations, and any code decisions. This presentation may factor into your grade.
+
+If you **cannot attend** your checkpoint session: **email us** at trainingteam@thegraphnetwork.org with a **brief explanation**, and record a short video (for example with [Loom](https://www.loom.com){target="_blank" rel="noopener"} or any screen-recording tool) walking through your work-in-progress. Post the video link on the submission page when you submit.
+
+We recommend covering:
+
+1. **Brief introduction**: What data did you choose and why?
+2. **Live demo**: Walk through the page you have ready, highlighting key visualizations and insights
+3. **Next steps**: What you still plan to add before final submission
+
+## Submission Instructions
+
+1. **Upload your Quarto file** (`.qmd`) to the submission page.
+2. **Provide a link** to the deployed dashboard on GitHub Pages.
+3. **Present** during the checkpoint session (at least one page), **or**, if you cannot attend, follow the alternate steps in [Checkpoint Presentation](#checkpoint-presentation).
+
+## Grading Rubric (100 points)
+
+### Data Selection and Manipulation (20 points)
+- Relevant data selected from Gapminder or approved alternative source
+- For UNODA/BWC-sponsored students, includes at least one approved health-security or biosecurity-relevant indicator
+- Data files are properly cleaned without errors or inconsistencies
+- Datasets are correctly merged when needed
+- Shows evidence of mastery of a range of pandas methods/functions
+
+### Dashboard Structure (15 points)
+- Contains required three pages (first indicator, second indicator, relationship)
+- Layout is logical, easy to navigate, and makes effective use of space
+- Design choices enhance understanding of the content
+
+### Visualization Elements (25 points)
+- Dashboard includes at least 12 display elements (value boxes, plots, tables, maps, etc.)
+- Plots have clear titles, labels, and appropriate scales
+- Interactive features (e.g., hover-over text) function correctly and display clear and useful information
+- Visual elements have titles or text boxes that explain the key insights
+- Appropriate choice of visualization types for the data
+
+### Code Quality (10 points)
+- Code is well-organized and readable
+- Code runs without errors
+- Efficient use of functions and operations
+- Consistent formatting and style
+
+### Deployment and Structure (10 points)
+- Dashboard is successfully deployed to GitHub Pages
+- Files are logically organized in repository
+- Repository contains only necessary files
+
+### Checkpoint Presentation (10 points)
+- Clear walkthrough of at least one completed dashboard page
+- Able to explain code logic and design choices when asked
+- Demonstrates genuine understanding of the tools and techniques used
+
+### Originality, Creativity, and Insight (10 points)
+- Original approaches to dashboard design, visualization, or interaction
+- Demonstrates thoughtful exploration of the data
+- Presents interesting patterns or relationships
+
+## Frequently Asked Questions
+
+### Can I use similar data from my R class?
+
+Yes.
+
+### Can I use AI?
+
+Yes, but make sure you can explain and defend the code.
+
+### Should the two indicators be related?
+
+Yes.
+
+### Can I use non-Gapminder data?
+
+Yes, but send an email to trainingteam@thegraphnetwork.org first with your proposal.
+
+### What if my dashboard doesn't work perfectly?
+
+That's okay! At the checkpoint, be clear about what is still in progress and what you would improve. Honest reflection on limitations is valued.
+
+### How complete does my dashboard need to be for the checkpoint?
+
+You should have **at least one page** ready to present. Other pages can still be in progress. Be clear about what's preliminary and what your next steps will be.
+
+### What kind of questions will be asked?
+
+The questions are designed to check that you understand your own code. For example: "Why did you choose this type of plot here?" or "How did you merge these two datasets?"
+
+### What if I miss the checkpoint session?
+
+See [Checkpoint Presentation](#checkpoint-presentation) for the alternate process (email with a brief reason and a recorded walkthrough).

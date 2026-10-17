@@ -1,0 +1,29 @@
+---
+title: "Workshop Live Demo/ Revision"
+---
+
+
+```{python}
+import pandas as pd
+import numpy as np
+
+sw_raw = pd.read_csv("https://raw.githubusercontent.com/the-graph-courses/misc_public/refs/heads/main/starwars.csv")
+```
+
+```{python}
+sw
+## drop the columns starships and vehicles
+
+## keep only the human species
+
+## convert height to meters
+
+## rename the mass variable to mass_kg
+
+## calculate bmi
+
+## classify into underweight (<18.5), normal weight (18.5- <25), overweight (>=25)
+
+## Recode sex from male, female to M, F 
+
+```
